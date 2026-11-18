@@ -1,3 +1,3 @@
 # Fundamentos-WEB
 Conteúdos da matéria de Fundamentos da WEB
-link https://vinicius-godoi.github.io/Web/
+link https://vinicius-godoi.github.io/Web/pagina_geral/
