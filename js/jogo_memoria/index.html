@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Jogo da Memória</title>
+</head>
+<body>
+    <h1>Teste Sua Memória</h1>
+    <div class="container-content">
+        <div class="container-image">
+            <img id="img-00" src="img/default.png" alt="img">
+        </div>
+
+        <div class="container-button">
+            <button onclick="playButton()">Iniciar</button>
+        </div>
+
+        <div class="container-resposta" >
+            <ol>
+                <!-- 1º -->
+                <li>
+                    <input type="radio" name="img1" id="guess1">
+                    <label>Azul</label>
+
+                    <input type="radio" name="img1" id="guess2">
+                    <label>Verde</label>
+
+                    <input type="radio" name="img1" id="guess3">
+                    <label>Preto</label>
+                </li><br>
+                <!--  2º -->
+                <li>
+                    <input type="radio" name="img2" id="guess4">
+                    <label>Vermelho</label>
+
+                    <input type="radio" name="img2" id="guess5">
+                    <label>Amarelo</label>
+
+                    <input type="radio" name="img2" id="guess6">
+                    <label>Marrom</label>
+                </li><br>
+                <!-- 3º -->
+                <li>
+                    <input type="radio" name="img3" id="guess7">
+                    <label>Preto</label>
+
+                    <input type="radio" name="img3" id="guess8">
+                    <label>Verde</label>
+
+                    <input type="radio" name="img3" id="guess9">
+                    <label>Azul</label>
+                </li><br>
+                <!-- 4º -->
+                <li>
+                    <input type="radio" name="img4" id="guess10">
+                    <label>Azul</label>
+
+                    <input type="radio" name="img4" id="guess11">
+                    <label>Verde</label>
+
+                    <input type="radio" name="img4" id="guess12">
+                    <label>Laranja</label>
+                </li><br>
+                <!--  5º -->
+                <li>
+                    <input type="radio" name="img5" id="guess13">
+                    <label>Vermelho</label>
+
+                    <input type="radio" name="img5" id="guess14">
+                    <label>Amarelo</label>
+
+                    <input type="radio" name="img5" id="guess15">
+                    <label>Marrom</label>
+                </li><br>
+                <!-- 6º -->
+                <li>
+                    <input type="radio" name="img6" id="guess16">
+                    <label>Preto</label>
+
+                    <input type="radio" name="img6" id="guess17">
+                    <label>Verde</label>
+
+                    <input type="radio" name="img6" id="guess18">
+                    <label>Azul</label>
+                </li><br>
+                <!-- 7º -->
+                <li>
+                    <input type="radio" name="img7" id="guess19">
+                    <label>Amarelo</label>
+                    
+                    <input type="radio" name="img7" id="guess20">
+                    <label>Laranja</label>
+                    
+                    <input type="radio" name="img7" id="guess21">
+                    <label>Vermelho</label>
+                </li>
+
+                <button id="b2">Verificar</button>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script/main.js"></script>
+</body>
+</html>
