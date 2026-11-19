@@ -3,5 +3,5 @@ function enviar(){
 
     setTimeout(() => {
         statusText.textContent = "ENVIADO!";
-    }, 1000);
+    }, 3000);
 }
