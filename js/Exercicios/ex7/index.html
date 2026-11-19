@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Relógio Digital em Tempo Real</title>
 </head>
 <body>
     <div class="container" >
-        
-        <p id="text" runTime()> 00h:00m:00s</p>
-    </div>    
+        <p><span id="time">--:--:--</span></p>
+    </div>
+    
+    <script>
+        function showTime(){
+            let now = new Date();
+
+            let hour = String(now.getHours()).padStart(2, "0");
+            let minutes = String(now.getMinutes()).padStart(2, "0");
+            let seconds = String(now.getSeconds()).padStart(2, "0");
+
+
+            document.getElementById("time").textContent = `${hour}:${minutes}:${seconds}`;
+        }
+
+        showTime();
+        setInterval(showTime, 500);
+    </script>
 </body>
 </html>
