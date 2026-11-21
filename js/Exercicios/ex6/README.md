@@ -1,4 +1,4 @@
-#Exercício 1: Alerta com Atraso
+#Alerta com Atraso
 
 Crie uma página HTML contendo um botão com o texto "Enviar" e um parágrafo de status vazio. 
 Quando o usuário clicar no botão:
