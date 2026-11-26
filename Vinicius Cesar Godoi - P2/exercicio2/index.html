@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Exercício 2 | Prova 2º Bim</title>
+</head>
+<body>
+    <div id="container-imc">
+
+        <p id="resultado"></p>
+
+        <h2>Calculadora de IMC</h2>
+        
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+        <p id="nome-erro"></p>
+        
+        <label for="peso">Peso (Kg):</label>
+        <input type="number" id="peso">
+        <p id="peso-erro"></p>
+
+        <label for="altura">Altura (m):</label>
+        <input type="number" id="altura">
+        <p id="altura-erro"></p>
+
+        <button onclick="processar()">Calcular</button>
+        
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

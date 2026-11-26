@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 5% 30% 5% 30%;
+  background-color: #f4f4f4
+}
+
+#container-imc{
+  background: white;
+  min-width: 0;
+  padding: 3.2rem 4.5rem;
+  border: 1px solid #ccc;
+}
+
+#container-imc label{
+  display: block;
+  margin: 1rem 0 0.4rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+button{
+  /* margin-top: 1.25rem; */
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 700;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.1s ease;  
+}
+  
+#resultado{
+    color: #007bff;
+}
+
+#peso-erro, #nome-erro, #altura-erro{
+    color: red;
+}
+
+input[type='number'],
+input[type='text'] {
+  width: 92%;
+  padding: 0.7rem 0.9rem;
+  color: var(--ink);
+  border: 1px solid #ccc;
+}
